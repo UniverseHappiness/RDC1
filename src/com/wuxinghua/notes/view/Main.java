@@ -18,6 +18,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+
 public class Main extends Application {
     private UserController userController;
 
@@ -147,7 +148,7 @@ public class Main extends Application {
 
         // 用户登录点击事件
         user_login.setOnAction(e->{
-            User login_user = new User();
+            User login_user;
 
             UserBean userBean;
             userController = new UserController();
